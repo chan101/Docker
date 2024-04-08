@@ -1,3 +1,2 @@
-docker build -t skin_cancer_detection ./skin_cancer_detection
 docker build -t mysql_server ./mysql_server
 docker build -t web_project ./web_project
