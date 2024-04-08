@@ -23,13 +23,6 @@ services:
       - "3306:3306"
     networks:
       - one_net
-  ngrok:
-    image: ngrok/ngrok:latest
-    container_name: ngrok
-    networks:
-      - one_net
-    ports:
-      - 4040:4040
 
 networks:
   one_net:
