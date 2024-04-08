@@ -3,3 +3,4 @@ sudo yum install git -y
 sudo yum install docker -y
 sudo service docker start
 sudo systemctl enable docker
+git clone https://github.com/chan101/Docker.git

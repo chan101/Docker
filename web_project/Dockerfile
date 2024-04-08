@@ -16,15 +16,6 @@ COPY apache-config.conf /etc/apache2/sites-available/000-default.conf
 # Enable Apache modules
 RUN a2enmod rewrite
 
-RUN echo 'ProxyPass "/skin" "http://skin:5000"' >> /etc/apache2/apache2.conf 
-RUN echo 'ProxyPassReverse "/skin" "http://skin:5000"' >> /etc/apache2/apache2.conf
-
-RUN echo 'ProxyPass "/static/images/melanoma" "http://skin:5000/static/images/melanoma"' >> /etc/apache2/apache2.conf 
-RUN echo 'ProxyPassReverse "/static/images/melanoma" "http://skin:5000/static/images/melanoma"' >> /etc/apache2/apache2.conf
-
-RUN echo 'ProxyPass "/display" "http://skin:5000/display"' >> /etc/apache2/apache2.conf 
-RUN echo 'ProxyPassReverse "/display" "http://skin:5000/display"' >> /etc/apache2/apache2.conf
-
 # Expose port 80 for Apache
 EXPOSE 80
 
