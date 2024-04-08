@@ -1,0 +1,3 @@
+docker buid -t ./skin_cancer_detection .
+docker buid -t ./mysql_server .
+docker build -t ./web_project .
