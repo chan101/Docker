@@ -1,0 +1,1 @@
+mysql -u root -pchan --execute="create database ads_db;use ads_db;source /app/ads_db.sql;create database detsdb;use detsdb;source /app/detsdb.sql;"

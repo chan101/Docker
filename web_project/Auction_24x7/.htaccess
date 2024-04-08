@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /Auction_24x7
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+)$ $1.php [L]
+
