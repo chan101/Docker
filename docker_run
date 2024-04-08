@@ -1,4 +1,4 @@
 docker network create one_net
-docker run -d --name=skin --net=one_net -p 5000:5000  skin_cancer_detection
+docker run --cpus=0.5 -d --name=skin --net=one_net -p 5000:5000  skin_cancer_detection
 docker run -d --name=web --net=one_net -p 80:80 web_project
 docker run -d --name=mysql --net=one_net -p 3306:3306 mysql_server

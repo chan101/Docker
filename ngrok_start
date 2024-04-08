@@ -1,0 +1,2 @@
+#!/bin/bash
+./ngrok http --domain=scorpion-absolute-recently.ngrok-free.app 80

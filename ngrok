@@ -1,7 +1,0 @@
-wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz
-
-tar xvzf ngrok-v3-stable-linux-amd64.tgz
-
-./ngrok config add-authtoken 3gk9NBcoeWiKWmG7gfRwQ_7crpVhi49MacpBxLf8y9
-
-./ngrok http --domain=scorpion-absolute-recently.ngrok-free.app 80
