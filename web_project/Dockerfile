@@ -14,7 +14,8 @@ COPY . /var/www/html/
 COPY apache-config.conf /etc/apache2/sites-available/000-default.conf
 
 # Enable Apache modules
-RUN a2enmod rewrite
+RUN a2enmod rewrite remoteip
+
 
 # Expose port 80 for Apache
 EXPOSE 80
