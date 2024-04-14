@@ -34,6 +34,6 @@ login to *mysql* container to run database import scripts
 
 Start ngrok
 
-`sudo ngrok_setup`
+`sudo sh ngrok_setup`
 
-`sudo ngrok_start`
+`sudo sh ngrok_start`
