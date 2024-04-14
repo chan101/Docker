@@ -1,0 +1,6 @@
+CREATE TABLE visitor_log (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    ip_address VARCHAR(45) NOT NULL,
+    user_agent VARCHAR(255),
+    access_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
